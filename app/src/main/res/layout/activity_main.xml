@@ -97,4 +97,18 @@
         app:layout_constraintTop_toBottomOf="@+id/btn"
         app:layout_constraintVertical_bias="0.398" />
 
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:clickable="true"
+        android:autoLink="all"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.278" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
